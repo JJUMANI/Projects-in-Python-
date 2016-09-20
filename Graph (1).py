@@ -1,6 +1,6 @@
 #  File: Graph.py
 
-#  Description: Create Graph
+#  Description: Create Graph using information in graph.txt file
 
 #  Student Name: Junaid K. Jumani
 
