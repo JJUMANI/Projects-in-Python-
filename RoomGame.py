@@ -84,18 +84,12 @@ def displayAllRooms(): #add code here
 
 
 
-##########################################################################
-###     All code below this is given to you.  DO NOT EDIT IT unless    ###
-###     you need to adjust the indentation to match the indentation    ###
-###     of the rest of your code.                                      ###
-##########################################################################
-
 
 def loadMap():
 
     global floorPlan    # make the variable "floorPlan" a global variable
 
-    inFile = open ("./ProjectData.txt", "r")
+    inFile = open ("./RoomData.txt", "r")
 
     room1 = inFile.readline()
     room1 = room1.strip()
